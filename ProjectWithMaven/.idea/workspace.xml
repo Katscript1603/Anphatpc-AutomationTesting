@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2875fb5f-d0a2-4c3f-acd6-11e7b095e6fb" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/anhtester/com/projects/crm/testcases/SignInTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/anhtester/com/projects/crm/testcases/runsuites/SuiteProjectTest.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/anhtester/com/projects/crm/pages/SignInPage.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="1wRJdvyAm04MpOLnEzLWE62drvn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="NEW_TOOLWINDOW_STRIPE_DEFAULTS" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/anhtester/com/utils" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.41361257" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ANHTESTER\SeleniumJava\Course_Selenium_Java_042021\JavaSelenium\ProjectWithMaven\src\main\java\anhtester\com\common\ultilities" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ANHTESTER\SeleniumJava\Course_Selenium_Java_042021\JavaSelenium\ProjectWithMaven\src\test\java\anhtester\com\testcases\suites" />
+      <recent name="D:\ANHTESTER\SeleniumJava\Course_Selenium_Java_042021\JavaSelenium\ProjectWithMaven\src\test\java\anhtester\com" />
+      <recent name="D:\ANHTESTER\SeleniumJava\Course_Selenium_Java_042021\JavaSelenium\ProjectWithMaven\src\main\java\anhtester\com\common\ultilities" />
+      <recent name="D:\ANHTESTER\SeleniumJava\Course_Selenium_Java_042021\JavaSelenium\ProjectWithMaven\src\test\java\anhtester\com\common" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="anhtester.common" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="anhtester.testcases" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.ProjectTest (1)">
+    <configuration name="D:/ANHTESTER/SeleniumJava/Course_Selenium_Java_042021/JavaSelenium/ProjectWithMaven/src/test/java/anhtester/com/projects/crm/testcases/runsuites/SuiteProjectTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjectWithMaven" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/anhtester/com/projects/crm/testcases/runsuites/SuiteProjectTest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListenerTC.checkTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjectWithMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="anhtester.com.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="anhtester.com.testcases" />
+      <option name="MAIN_CLASS_NAME" value="anhtester.com.testcases.ListenerTC" />
+      <option name="METHOD_NAME" value="checkTitle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjectWithMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="anhtester.com.projects.crm.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="anhtester.com.projects.crm.testcases" />
+      <option name="MAIN_CLASS_NAME" value="anhtester.com.projects.crm.testcases.ProjectTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjectWithMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="anhtester.com.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="anhtester.com.testcases" />
+      <option name="MAIN_CLASS_NAME" value="anhtester.com.testcases.ProjectTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectTest.signInPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjectWithMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="anhtester.com.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="anhtester.com.testcases" />
+      <option name="MAIN_CLASS_NAME" value="anhtester.com.testcases.ProjectTest" />
+      <option name="METHOD_NAME" value="signInPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.ListenerTC.checkTitle" />
+      <item itemvalue="TestNG.ProjectTest" />
+      <item itemvalue="TestNG.ProjectTest.signInPage" />
+      <item itemvalue="TestNG.D:/ANHTESTER/SeleniumJava/Course_Selenium_Java_042021/JavaSelenium/ProjectWithMaven/src/test/java/anhtester/com/projects/crm/testcases/runsuites/SuiteProjectTest.xml" />
+      <item itemvalue="TestNG.ProjectTest (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.ProjectTest (1)" />
+        <item itemvalue="TestNG.D:/ANHTESTER/SeleniumJava/Course_Selenium_Java_042021/JavaSelenium/ProjectWithMaven/src/test/java/anhtester/com/projects/crm/testcases/runsuites/SuiteProjectTest.xml" />
+        <item itemvalue="TestNG.ProjectTest.signInPage" />
+        <item itemvalue="TestNG.ProjectTest" />
+        <item itemvalue="TestNG.ListenerTC.checkTitle" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2875fb5f-d0a2-4c3f-acd6-11e7b095e6fb" name="Changes" comment="" />
+      <created>1628415559372</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628415559372</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

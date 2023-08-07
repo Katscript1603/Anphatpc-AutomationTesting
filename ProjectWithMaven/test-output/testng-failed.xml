@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Page Object test example]" guice-stage="DEVELOPMENT">
+  <parameter name="appURL" value="https://www.anphatpc.com.vn"/>
+  <parameter name="browserType" value="chrome"/>
+  <listeners>
+    <listener class-name="utils.listeners.ReportListener"/>
+  </listeners>
+  <test thread-count="5" name="sample test(failed)">
+    <classes>
+      <class name="testcases.LoginTest">
+        <methods>
+          <include name="TC_Login"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="setUpBeforeTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.LoginTest -->
+    </classes>
+  </test> <!-- sample test(failed) -->
+</suite> <!-- Failed suite [Page Object test example] -->
