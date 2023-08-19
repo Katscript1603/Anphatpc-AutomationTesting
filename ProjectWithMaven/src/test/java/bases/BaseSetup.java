@@ -5,8 +5,6 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -32,12 +30,6 @@ public class BaseSetup {
 		case "chrome":
 			driver = initChromeDriver(appURL);
 			break;
-		case "firefox":
-			driver = initFirefoxDriver(appURL);
-			break;
-		case "opera":
-			driver = initOperaDriver(appURL);
-			break;
 		default:
 			System.out.println("Browser: " + browserType + " is invalid, Launching Chrome as browser of choice...");
 			driver = initChromeDriver(appURL);
@@ -57,28 +49,7 @@ public class BaseSetup {
 		return driver;
 	}
 
-	private WebDriver initFirefoxDriver(String appURL) {
-		System.out.println("Launching Firefox browser...");
-//		System.setProperty("webdriver.gecko.driver", driverPath + "geckodriver.exe");
-		WebDriverManager.firefoxdriver().setup();
-		driver = new FirefoxDriver();
-		driver.manage().window().maximize();
-		driver.navigate().to(appURL);
-		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		return driver;
-	}
-	
-	private WebDriver initOperaDriver(String appURL) {
-		System.out.println("Launching Opera browser...");
-		WebDriverManager.operadriver().setup();
-		driver = new OperaDriver();
-		driver.manage().window().maximize();
-		driver.navigate().to(appURL);
-		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		return driver;
-	}
+
 
 	// Chạy hàm initializeTestBaseSetup trước hết khi class này được gọi
 	@Parameters({ "browserType", "appURL" })

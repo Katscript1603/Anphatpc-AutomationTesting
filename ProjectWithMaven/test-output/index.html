@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Page_Object_test_example" class="navigator-link">
-              <span class="suite-name border-failed">Page Object test example</span>
+              <span class="suite-name border-passed">Page Object test example</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Page_Object_test_example" class="navigator-link ">
-                    <span>C:\Users\Storm\OneDrive - VLG\Desktop\Anphatpc-Selenium\ProjectWithMaven\src\test\java\testcases\runsuites\SuiteProjectTest.xml</span>
+                    <span>C:\Users\Storm\OneDrive - VLG\Desktop\Anphatpc-AutomationTest\ProjectWithMaven\src\test\java\testcases\runsuites\SuiteProjectTest.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,21 +93,41 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Page_Object_test_example" class="hide-methods failed suite-Page_Object_test_example"> (hide)</a> <!-- hide-methods failed suite-Page_Object_test_example -->
-                      <a href="#" panel-name="suite-Page_Object_test_example" class="show-methods failed suite-Page_Object_test_example"> (show)</a> <!-- show-methods failed suite-Page_Object_test_example -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Page_Object_test_example" class="hide-methods passed suite-Page_Object_test_example"> (hide)</a> <!-- hide-methods passed suite-Page_Object_test_example -->
+                      <a href="#" panel-name="suite-Page_Object_test_example" class="show-methods passed suite-Page_Object_test_example"> (show)</a> <!-- show-methods passed suite-Page_Object_test_example -->
                     </span>
-                    <div class="method-list-content failed suite-Page_Object_test_example">
+                    <div class="method-list-content passed suite-Page_Object_test_example">
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Page_Object_test_example" title="testcases.LoginTest" class="method navigator-link" hash-for-method="TC_Login">TC_Login</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Page_Object_test_example" title="testcases.CartManagementTest" class="method navigator-link" hash-for-method="TC_02_01">TC_02_01</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Page_Object_test_example -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Page_Object_test_example" title="testcases.CartManagementTest" class="method navigator-link" hash-for-method="TC_02_02">TC_02_02</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Page_Object_test_example" title="testcases.CartManagementTest" class="method navigator-link" hash-for-method="TC_02_03">TC_02_03</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Page_Object_test_example" title="testcases.CartManagementTest" class="method navigator-link" hash-for-method="TC_02_04">TC_02_04</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Page_Object_test_example" title="testcases.CartManagementTest" class="method navigator-link" hash-for-method="TC_02_05">TC_02_05</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Page_Object_test_example -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -119,31 +139,53 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Page_Object_test_example" class="panel Page_Object_test_example">
-          <div class="suite-Page_Object_test_example-class-failed">
+          <div class="suite-Page_Object_test_example-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testcases.LoginTest</span>
+              <img src="passed.png"/>
+              <span class="class-name">testcases.CartManagementTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="TC_Login">
-                  </a> <!-- TC_Login -->
-                  <span class="method-name">TC_Login</span>
-                  <div class="stack-trace">java.lang.AssertionError: [[ChromeDriver: chrome on WINDOWS (2045228bc320847e2cc3cf0f5e03ee03)] -&gt; xpath: //input[@value=&apos;Đăng nhập&apos;]] is not displayed expected [false] but found [true]
-	at pages.LoginPage.verifyLoginBtnNotDisplayed(LoginPage.java:50)
-	at testcases.LoginTest.TC_Login(LoginTest.java:46)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 30 stack frames
-</div> <!-- stack-trace -->
+                  <a name="TC_02_01">
+                  </a> <!-- TC_02_01 -->
+                  <span class="method-name">TC_02_01</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_02_02">
+                  </a> <!-- TC_02_02 -->
+                  <span class="method-name">TC_02_02</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_02_03">
+                  </a> <!-- TC_02_03 -->
+                  <span class="method-name">TC_02_03</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_02_04">
+                  </a> <!-- TC_02_04 -->
+                  <span class="method-name">TC_02_04</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_02_05">
+                  </a> <!-- TC_02_05 -->
+                  <span class="method-name">TC_02_05</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Page_Object_test_example-class-failed -->
+          </div> <!-- suite-Page_Object_test_example-class-passed -->
         </div> <!-- panel Page_Object_test_example -->
         <div panel-name="test-xml-Page_Object_test_example" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Storm\OneDrive - VLG\Desktop\Anphatpc-Selenium\ProjectWithMaven\src\test\java\testcases\runsuites\SuiteProjectTest.xml</span>
+            <span class="header-content">C:\Users\Storm\OneDrive - VLG\Desktop\Anphatpc-AutomationTest\ProjectWithMaven\src\test\java\testcases\runsuites\SuiteProjectTest.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -157,7 +199,7 @@
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;sample test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testcases.LoginTest&quot;/&gt;
+      &lt;class name=&quot;testcases.CartManagementTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- sample test --&gt;
 &lt;/suite&gt; &lt;!-- Page Object test example --&gt;
@@ -197,16 +239,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TC_Login')
-data.setCell(0, 2, 'testcases.LoginTest')
-data.setCell(0, 3, 5454);
+data.setCell(0, 1, 'TC_02_03')
+data.setCell(0, 2, 'testcases.CartManagementTest')
+data.setCell(0, 3, 2480);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC_02_05')
+data.setCell(1, 2, 'testcases.CartManagementTest')
+data.setCell(1, 3, 1889);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC_02_01')
+data.setCell(2, 2, 'testcases.CartManagementTest')
+data.setCell(2, 3, 1519);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC_02_02')
+data.setCell(3, 2, 'testcases.CartManagementTest')
+data.setCell(3, 3, 339);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC_02_04')
+data.setCell(4, 2, 'testcases.CartManagementTest')
+data.setCell(4, 3, 292);
 window.suiteTableData['Page_Object_test_example']= { tableData: data, tableDiv: 'times-div-Page_Object_test_example'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-Page_Object_test_example">
               </div> <!-- times-div-Page_Object_test_example -->
             </div> <!-- times-div -->
@@ -232,28 +290,38 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testcases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testcases.CartManagementTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">initializeTestBaseSetup(chrome, https://www.anphatpc.com.vn)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">19561 ms</span>
+                <span class="method-name">setUp(https://www.anphatpc.com.vn)</span>
+                <span class="method-start">27154 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">setUpBeforeTest(https://www.anphatpc.com.vn)</span>
-                <span class="method-start">19586 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">TC_Login</span>
-                <span class="method-start">20875 ms</span>
+                <span class="method-name">TC_02_01</span>
+                <span class="method-start">40975 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_02_02</span>
+                <span class="method-start">44662 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_02_03</span>
+                <span class="method-start">46019 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_02_04</span>
+                <span class="method-start">48915 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_02_05</span>
+                <span class="method-start">49587 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">26819 ms</span>
+                <span class="method-start">52241 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -49,5 +49,6 @@ public class LoginPage {
 		WebElement element = driver.findElement(loginBtn);
 		Assert.assertFalse(element.isDisplayed(), element.toString() + " is not displayed");
 	}
-	
+
+
 }

@@ -8,8 +8,8 @@
 	<test name="sample test">
 		<classes>
 			<!--<class name="testcases.RegistrationTest"></class>-->
-			<!--<class name="testcases.CartManagementTest"></class>-->
-			<class name="testcases.LoginTest"></class>
+			<class name="testcases.CartManagementTest"></class>
+			<!--<class name="testcases.LoginTest"></class>-->
 		</classes>
 	</test>
 </suite>

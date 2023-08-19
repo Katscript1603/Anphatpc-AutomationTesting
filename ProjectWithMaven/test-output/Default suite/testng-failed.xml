@@ -3,15 +3,48 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.LoginTest">
+      <class name="testcases.RegistrationTest">
         <methods>
-          <include name="TC_Login"/>
+          <include name="TC_01_05"/>
+          <include name="TC_01_27"/>
+          <include name="TC_01_06"/>
+          <include name="TC_01_28"/>
+          <include name="TC_01_03"/>
+          <include name="TC_01_25"/>
           <include name="initializeTestBaseSetup"/>
+          <include name="TC_01_04"/>
+          <include name="TC_01_26"/>
+          <include name="TC_01_09"/>
+          <include name="TC_01_07"/>
+          <include name="TC_01_29"/>
+          <include name="TC_01_08"/>
+          <include name="TC_01_02"/>
+          <include name="TC_01_24"/>
+          <include name="tearDown"/>
           <include name="setUp"/>
           <include name="setUpBeforeTest"/>
-          <include name="tearDown"/>
+          <include name="TC_01_20"/>
+          <include name="TC_01_01"/>
+          <include name="TC_01_23"/>
+          <include name="TC_01_21"/>
+          <include name="TC_01_22"/>
+          <include name="TC_01_16"/>
+          <include name="TC_01_17"/>
+          <include name="TC_01_14"/>
+          <include name="TC_01_15"/>
+          <include name="TC_01_18"/>
+          <include name="TC_01_19"/>
+          <include name="TC_01_13"/>
+          <include name="TC_01_30"/>
+          <include name="TC_01_31"/>
+          <include name="TC_01_12"/>
+          <include name="TC_01_34"/>
+          <include name="TC_01_10"/>
+          <include name="TC_01_32"/>
+          <include name="TC_01_11"/>
+          <include name="TC_01_33"/>
         </methods>
-      </class> <!-- testcases.LoginTest -->
+      </class> <!-- testcases.RegistrationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

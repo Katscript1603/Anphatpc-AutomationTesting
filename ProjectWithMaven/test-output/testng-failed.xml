@@ -8,15 +8,18 @@
   </listeners>
   <test thread-count="5" name="sample test(failed)">
     <classes>
-      <class name="testcases.LoginTest">
+      <class name="testcases.CartManagementTest">
         <methods>
-          <include name="TC_Login"/>
+          <include name="TC_02_03"/>
+          <include name="TC_02_04"/>
           <include name="initializeTestBaseSetup"/>
           <include name="setUp"/>
-          <include name="setUpBeforeTest"/>
+          <include name="TC_02_01"/>
+          <include name="TC_02_02"/>
+          <include name="TC_02_05"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- testcases.LoginTest -->
+      </class> <!-- testcases.CartManagementTest -->
     </classes>
   </test> <!-- sample test(failed) -->
 </suite> <!-- Failed suite [Page Object test example] -->

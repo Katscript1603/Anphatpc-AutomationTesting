@@ -29,7 +29,7 @@ public class CartManagementTest extends BaseSetup {
 	public void setUp(String appURL) {
 		driver = getDriver();
 		homePage = new HomePage(driver);
-		driver.get(appURL + "/pcap-aqua-black.html");
+		driver.get(appURL + "/chuot-asus-tuf-m4-wireless.html");
 		productDetailPage = new ProductDetailPage(driver);
 		validateHelper = new ValidateHelper(driver);
 	}
